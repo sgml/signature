@@ -1,0 +1,212 @@
+
+
+    E_NOTICE, "Error exceptions must be derived from Error"
+    E_NOTICE, "Illegal member variable name"
+    E_NOTICE, "Corrupt member variable name"
+    E_NOTICE, "Resource ID#%d used as offset, casting to integer (%d)"
+    E_NOTICE,"Undefined variable: this"
+    E_NOTICE,"Undefined variable: %s"
+    E_NOTICE, "Trying to get property of non-object"
+    E_NOTICE, "Only variables should be assigned by reference"
+    E_NOTICE, "Only variable references should be returned by reference"
+    E_NOTICE, "Use of undefined constant %s - assumed '%s'"
+    E_NOTICE, "Trying to unset property of non-object"
+    E_NOTICE, "Trying to check element of non-array"
+    E_NOTICE, "Trying to check property of non-object"
+    E_NOTICE, "Only variable references should be yielded by reference"
+    E_NOTICE, "Undefined offset: "
+    E_CORE_WARNING, "Cannot load module '%s' because required module '%s' is not loaded"
+    E_CORE_WARNING, "Cannot load module '%s' because conflicting module '%s' is already loaded"
+    E_CORE_WARNING, "Module '%s' already loaded"
+    E_CORE_WARNING,"%s: Unable to register functions, unable to load"
+    E_WARNING, "Illegal offset type"
+    E_WARNING, "Illegal string offset '%s'"
+    E_WARNING, "This object doesn't support property references"
+    E_WARNING, "Creating default object from empty value"
+    E_WARNING, "Attempt to increment/decrement property of non-object"
+    E_WARNING, "zend.assertions may be completely enabled or disabled only in php.ini"
+    E_WARNING, "The magic method __call() must have public visibility and cannot be static"
+    E_WARNING, "The magic method __callStatic() must have public visibility and be static"
+    E_WARNING, "The magic method __get() must have public visibility and cannot be static"
+    E_WARNING, "The magic method __set() must have public visibility and cannot be static"
+    E_WARNING, "The magic method __unset() must have public visibility and cannot be static"
+    E_WARNING, "The magic method __isset() must have public visibility and cannot be static"
+    E_WARNING, "The magic method __toString() must have public visibility and cannot be static"
+    E_WARNING, "The magic method __invoke() must have public visibility and cannot be static"
+    E_WARNING, "The magic method __debugInfo() must have public visibility and cannot be static"
+    E_WARNING, "The use statement with non-compound name '%s' has no effect", ZSTR_VAL(new_name)
+    E_WARNING, "Attempt to assign property of non-object"
+    E_WARNING, "Cannot add element to the array as the next element is already occupied"
+    E_WARNING, "Cannot use a scalar value as an array"
+    E_WARNING, "Attempt to increment/decrement property of non-object"
+    E_WARNING, "Creating default object from empty value"
+    E_WARNING, "Only arrays and Traversables can be unpacked"
+    E_WARNING, "Cannot pass by-reference argument %d of %s%s%s()
+    E_WARNING, "Parameter %d to %s%s%s() expected to be a reference, value given"
+    E_WARNING, "Illegal offset type in unset"
+    E_WARNING, "Invalid argument supplied for foreach()"
+    E_WARNING, "Illegal offset type in isset or empty"
+    E_COMPILE_WARNING, "Unsupported encoding [%s]", ZSTR_VAL(encoding_name)
+    E_COMPILE_WARNING, "declare(encoding=...) ignored because Zend multibyte feature is turned off by settings"
+    E_COMPILE_WARNING, "Unsupported declare '%s'", ZSTR_VAL(name)
+    "E_COMPILE_ERROR, Cannot use '%s' as class name as it is reserved",
+    "E_COMPILE_ERROR, Multiple abstract modifiers are not allowed",
+    "E_COMPILE_ERROR, Multiple final modifiers are not allowed",
+    "E_COMPILE_ERROR, Cannot use the final modifier on an abstract class",
+    "E_COMPILE_ERROR, Multiple access type modifiers are not allowed",
+    "E_COMPILE_ERROR, Multiple abstract modifiers are not allowed",
+    "E_COMPILE_ERROR, Multiple static modifiers are not allowed",
+    "E_COMPILE_ERROR, Multiple final modifiers are not allowed",
+    "E_COMPILE_ERROR, Cannot use the final modifier on an abstract class member",
+    "E_COMPILE_ERROR, '\\%s' is an invalid class name",
+    "E_COMPILE_ERROR, Internal Zend error - Missing class information for %s
+    "E_COMPILE_ERROR, Cannot declare %s %s, because the name is already in use"
+    "E_COMPILE_ERROR, Cannot declare %s, because the name is already in use
+    "E_COMPILE_ERROR, Invalid binding type",
+    "E_COMPILE_ERROR, The \yield\ expression can only be used inside a function",
+    "E_COMPILE_ERROR, Cannot use \%s\ when no class scope is active,fetch_type == ZEND_FETCH_CLASS_SELF ? self :\n\t\t\tfetch_type == ZEND_FETCH_CLASS_PARENT ? parent : static",
+    "E_COMPILE_ERROR, Dynamic class names are not allowed in compile-time ::class fetch",
+    "E_COMPILE_ERROR, %s::class cannot be used for compile-time class name resolution,\n\t\t\t\t\tfetch_type == ZEND_FETCH_CLASS_STATIC ? static : parent\n\t\t\t\t",
+    "E_COMPILE_ERROR, No code may exist outside of namespace {}",
+    "E_COMPILE_ERROR, A void function must not return a value \n\t\t\t\t\t(did you mean \return;\ instead of \return null;\?",
+    "E_COMPILE_ERROR, A void function must not return a value",
+    "E_COMPILE_ERROR, A function with return type must return a value \n\t\t\t\t\t(did you mean \return null;\ instead of \return;\?",
+    "E_COMPILE_ERROR, A function with return type must return a value",
+    "E_COMPILE_ERROR, Illegal class name",
+    "E_COMPILE_ERROR, Cannot use result of built-in function in write context",
+    "E_COMPILE_ERROR, Cannot use [] for reading",
+    "E_COMPILE_ERROR, Cannot use [] for unsetting",
+    "E_COMPILE_ERROR, Cannot assign to array(",
+    "E_COMPILE_ERROR, Cannot mix [] and list(",
+    "E_COMPILE_ERROR, Assignments can only happen to writable values",
+    "E_COMPILE_ERROR, [] and list(",
+    "E_COMPILE_ERROR, Cannot mix keyed and unkeyed array entries in assignments",
+    "E_COMPILE_ERROR, Cannot use empty list",
+    "E_COMPILE_ERROR, Cannot use empty array entries in keyed array",
+    "E_COMPILE_ERROR, Can't use function return value in write context",
+    "E_COMPILE_ERROR, Can't use method return value in write context",
+    "E_COMPILE_ERROR, Cannot re-assign $this",
+    "E_COMPILE_ERROR, Cannot use result of built-in function in write context",
+    "E_COMPILE_ERROR, Cannot use positional argument after argument unpacking",
+    "E_COMPILE_ERROR, Only variables can be passed by reference",
+    "E_COMPILE_ERROR, Method name must be a string",
+    "E_COMPILE_ERROR, Method name must be a string",
+    "E_COMPILE_ERROR, Cannot use $this as global variable",
+    "E_COMPILE_ERROR, Cannot use $this as static variable",
+    "E_COMPILE_ERROR, Cannot unset $this",
+    "E_COMPILE_ERROR, '%s' operator with non-constant operand is no longer supported, ast->kind == ZEND_AST_BREAK ? break : continue",
+    "E_COMPILE_ERROR, '%s' operator accepts only positive numbers,ast->kind == ZEND_AST_BREAK ? break : continue",
+    "E_COMPILE_ERROR, '%s' not in the 'loop' or 'switch' context,ast->kind == ZEND_AST_BREAK ? break : continue",
+    "E_COMPILE_ERROR, Cannot '%s' %d level%s,ast->kind == ZEND_AST_BREAK ? break : continue, depth, depth == 1 ? : s",
+    "E_COMPILE_ERROR, 'goto' to undefined label '%s', Z_STRVAL_P(label",
+    "E_COMPILE_ERROR, 'goto' into loop or switch statement is disallowed",
+    "E_COMPILE_ERROR, Label '%s' already defined",
+    "E_COMPILE_ERROR, Key element cannot be a reference",
+    "E_COMPILE_ERROR, Cannot use list as key element",
+    "E_COMPILE_ERROR, Cannot re-assign $this",
+    "E_COMPILE_ERROR, Switch statements may only contain one default clause",
+    "E_COMPILE_ERROR, Cannot use try without catch or finally",
+    "E_COMPILE_ERROR, Bad class name in the catch statement",
+    "E_COMPILE_ERROR, Cannot re-assign $this",
+    "E_COMPILE_ERROR, Encoding must be a literal",
+    "E_COMPILE_ERROR, Encoding declaration pragma must be the very first statement in the script",
+    "E_COMPILE_ERROR, strict_types declaration must be the very first statement in the script",
+    "E_COMPILE_ERROR, strict_types declaration must not use block mode",
+    "E_COMPILE_ERROR, strict_types declaration must have 0 or 1 as its value",
+    "E_COMPILE_ERROR, Scalar type declaration '%s' must be unqualified",
+    "E_COMPILE_ERROR, Void type cannot be nullable",
+    "E_COMPILE_ERROR, Cannot re-assign auto-global variable %s,ZSTR_VAL(name",
+    "E_COMPILE_ERROR, Redefinition of parameter $%s,ZSTR_VAL(name",
+    "E_COMPILE_ERROR, Cannot use $this as parameter",
+    "E_COMPILE_ERROR, Only the last parameter can be variadic",
+    "E_COMPILE_ERROR,Variadic parameter cannot have a default value",
+    "E_COMPILE_ERROR, void cannot be used as a parameter type",
+    "E_COMPILE_ERROR, Default value for parameters with array type can only be an array or NULL",
+    "E_COMPILE_ERROR, Default value for parameters with callable type can only be NULL",
+    "E_COMPILE_ERROR, Default value for parameters with a class type can only be NULL",
+    "E_COMPILE_ERROR, Default value for parameters with a float type can only be float, integer, or NULL",
+    "E_COMPILE_ERROR, Default value for parameters with iterable type can only be an array or NULL",
+    "E_COMPILE_ERROR, Default value for parameters with a %s type can only be %s or NULL",
+    "E_COMPILE_ERROR, Cannot use $this as lexical variable",
+    "E_COMPILE_ERROR, Cannot use auto-global as lexical variable",
+    "E_COMPILE_ERROR,Cannot use variable $%s twice",
+    "E_COMPILE_ERROR,Cannot use lexical variable $%s as a parameter name",
+    "E_COMPILE_ERROR, Access type for interface method %s::%s(",
+    "E_COMPILE_ERROR, %s function %s::%s(",
+    "E_COMPILE_ERROR, %s function %s::%s(",
+    "E_COMPILE_ERROR, Non-abstract method %s::%s(",
+    "E_COMPILE_ERROR, Cannot redeclare %s::%s(",
+    "E_COMPILE_ERROR, Cannot declare function %s because the name is already in use",
+    "E_COMPILE_ERROR, Interfaces may not include member variables",
+    "E_COMPILE_ERROR, Properties cannot be declared abstract",
+    "E_COMPILE_ERROR, Cannot declare property %s::$%s final, the final modifier is allowed only for methods and classes,\n\t\t\t\tZSTR_VAL(ce->name",
+    "E_COMPILE_ERROR, Cannot redeclare %s::$%s,ZSTR_VAL(ce->name",
+    "E_COMPILE_ERROR, Traits cannot have constants",
+    "E_COMPILE_ERROR, Cannot use 'static' as constant modifier",
+    "E_COMPILE_ERROR, Cannot use 'abstract' as constant modifier",
+    "E_COMPILE_ERROR, Cannot use 'final' as constant modifier",
+    "E_COMPILE_ERROR, Cannot use 'static' as method modifier",
+    "E_COMPILE_ERROR, Cannot use 'abstract' as method modifier",
+    "E_COMPILE_ERROR, Cannot use 'final' as method modifier",
+    "E_COMPILE_ERROR, Cannot use traits inside of interfaces. %s is used in %s",
+    "E_COMPILE_ERROR, Cannot use '%s' as trait name as it is reserved",
+    "E_COMPILE_ERROR, Cannot use '%s' as interface name as it is reserved",
+    "E_COMPILE_ERROR, Class declarations may not be nested",
+    "E_COMPILE_ERROR, Cannot declare class %s because the name is already in use",
+    "E_COMPILE_ERROR, Cannot use '%s' as class name as it is reserved",
+    "E_COMPILE_ERROR, You seem to be trying to use a different language...",
+    "E_COMPILE_ERROR, Cannot use %s as %s because '%s' is a special class name",
+    "E_COMPILE_ERROR, Cannot use%s %s as %s because the name is already in use",
+    "E_COMPILE_ERROR, Cannot redeclare constant '%s'",
+    "E_COMPILE_ERROR, Cannot declare const %s because the name is already in use",
+    "E_COMPILE_ERROR, Cannot mix bracketed namespace declarations with unbracketed namespace declarations",
+    "E_COMPILE_ERROR, Cannot mix bracketed namespace declarations with unbracketed namespace declarations",
+    "E_COMPILE_ERROR, Namespace declarations cannot be nested",
+    "E_COMPILE_ERROR, Namespace declaration statement has to be the very first statement or after any declare call in the script",
+    "E_COMPILE_ERROR, Cannot use '%s' as namespace name",
+    "E_COMPILE_ERROR, __HALT_COMPILER",
+    "E_COMPILE_ERROR, Cannot use list",
+    "E_COMPILE_ERROR, Cannot use empty array elements in arrays",
+    "E_COMPILE_ERROR, Illegal offset type",
+    "E_COMPILE_ERROR, Cannot use \yield from\ inside a by-reference generator",
+    "E_COMPILE_ERROR, instanceof expects an object instance, constant given",
+    "E_COMPILE_ERROR, Cannot use isset(",
+    "E_COMPILE_ERROR, Cannot use empty array elements in arrays",
+    "E_COMPILE_ERROR, Dynamic class names are not allowed in compile-time ::class fetch",
+    "E_COMPILE_ERROR, Dynamic class names are not allowed in compile-time class constant references",
+    "E_COMPILE_ERROR, \static::\ is not allowed in compile-time constants",
+    "E_COMPILE_ERROR, Constant expression contains invalid operations",
+    "E_COMPILE_ERROR, Cannot use temporary expression in write context",
+    "E_COMPILE_ERROR, Cannot use [] for reading,
+    "E_COMPILE_ERROR, Dynamic class names are not allowed in compile-time ::class fetch
+    "E_COMPILE_ERROR, "Can't inherit abstract function %s::%s(",
+    "E_COMPILE_ERROR, "Cannot override final method %s::%s(",
+    "E_COMPILE_ERROR, "Cannot make non static method %s::%s(",
+    "E_COMPILE_ERROR, "Cannot make static method %s::%s(",
+    "E_COMPILE_ERROR, "Cannot make non abstract method %s::%s(",
+    "E_COMPILE_ERROR, "Access level to %s::$%s must be %s (as in class %s",
+    "E_COMPILE_ERROR, "Access level to %s::%s must be %s (as in class %s",
+    "E_COMPILE_ERROR, "Interface %s may not inherit from class (%s",
+    "E_COMPILE_ERROR, "Class %s cannot extend from interface %s", ZSTR_VAL(ce->name",
+    "E_COMPILE_ERROR, "Class %s cannot extend from trait %s", ZSTR_VAL(ce->name",
+    "E_COMPILE_ERROR, "Class %s may not inherit from final class (%s",
+    "E_COMPILE_ERROR, "Cannot inherit previously-inherited or override constant %s from interface %s", ZSTR_VAL(name",
+    "E_COMPILE_ERROR, "Class %s cannot implement previously implemented interface %s", ZSTR_VAL(ce->name",
+    "E_COMPILE_ERROR, "%s has colliding constructor definitions coming from traits", ZSTR_VAL(ce->name",
+    "E_COMPILE_ERROR, "%s has colliding constructor definitions coming from traits", ZSTR_VAL(ce->name",
+    "E_COMPILE_ERROR, "Declaration of %s must be compatible with %s",ZSTR_VAL(zend_get_function_declaration(fn",
+    "E_COMPILE_ERROR, "Declaration of %s must be compatible with %s",ZSTR_VAL(zend_get_function_declaration(fn",
+    "E_COMPILE_ERROR, "Declaration of %s must be compatible with %s",ZSTR_VAL(zend_get_function_declaration(fn",
+    "E_COMPILE_ERROR, "Declaration of %s must be compatible with %s",ZSTR_VAL(zend_get_function_declaration(fn",
+    "E_COMPILE_ERROR, "Trait method %s has not been applied, because there are collisions with other trait methods on %s",name, ZSTR_VAL(ce->name",
+    "E_COMPILE_ERROR, "Trait method %s::%s has not been applied as %s::%s, because of collision with %s::%s",ZSTR_VAL(fn->common.scope->name",
+    "E_COMPILE_ERROR, "Class %s is not a trait, Only traits may be used in 'as' and 'insteadof' statements", ZSTR_VAL(trait->name",
+    "E_COMPILE_ERROR, "Required Trait %s wasn't added to %s", ZSTR_VAL(trait->name",
+    "E_COMPILE_ERROR, "Could not find trait %s", ZSTR_VAL(cur_method_ref->class_name",
+    "E_COMPILE_ERROR, "A precedence rule was defined for %s::%s but this method does not exist",\n\t\t\t\t\t\t\t ZSTR_VAL(cur_method_ref->ce->name",
+    "E_COMPILE_ERROR, "Could not find trait %s", ZSTR_VAL(class_name",
+    "E_COMPILE_ERROR, "Inconsistent insteadof definition. "\n\t\t\t\t\t\t\t\t "The method %s is to be used from %s, but %s is also on the exclude list",\n\t\t\t\t\t\t\t\t ZSTR_VAL(cur_method_ref->method_name",
+    "E_COMPILE_ERROR, "Could not find trait %s", ZSTR_VAL(cur_method_ref->class_name",
+    "E_COMPILE_ERROR, "An alias was defined for %s::%s but this method does not exist",
+    "E_COMPILE_ERROR, "Failed to evaluate a trait precedence",
+    "E_COMPILE_ERROR, "%s and %s define the same property",
