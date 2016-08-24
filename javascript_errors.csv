@@ -1,0 +1,17 @@
+Uncaught RangeError: Maximum call stack size exceeded
+Uncaught URIError: URI malformed
+Uncaught TypeError: Cannot set property ‘foo’ of null, Uncaught TypeError: Cannot set property ‘foo’ of undefined
+Uncaught TypeError: Cannot read property ‘foo’ of null, Uncaught TypeError: Cannot read property ‘foo’ of undefined
+Uncaught SyntaxError: Unexpected token ILLEGAL
+Unexpected token ;
+Expected ), missing ) after argument list
+Uncaught TypeError: Converting circular structure to JSON
+Uncaught exception: TypeError: JSON.stringify: Not an acyclic Object, TypeError: cyclic object value, Circular reference in value argument not supported
+Uncaught ReferenceError: Invalid left-hand side in assignment
+Uncaught exception: ReferenceError: Cannot assign to ‘functionCall()’, Uncaught exception: ReferenceError: Cannot assign to ‘this’
+Uncaught TypeError: undefined is not a function
+number is not a function, object is not a function, string is not a function, Unhandled Error: ‘foo’ is not a function, Function Expected
+XMLHttpRequest cannot load http://some/url/. No ‘Access-Control-Allow-Origin’ header is present on the requested resource
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://some/url/.
+invalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+InvalidStateError, DOMException code 11
