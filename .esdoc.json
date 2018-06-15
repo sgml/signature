@@ -1,10 +1,15 @@
 {
   "source": "./",
   "destination": "./doc",
+  "outputAST": false,
   "plugins": [{
     "name": "esdoc-standard-plugin",
     "option": {
-      "accessor": {"access": ["public"], "autoPrivate": true}
+      "accessor": {"access": ["public"], "autoPrivate": true},
+      "lint": {"enable": false},
+      "coverage": {"enable": false},
+      "undocumentIdentifier": {"enable": false},
+      "test": {"source": false}
     }
   }]
 }
