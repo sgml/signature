@@ -6,8 +6,7 @@
     "option": {
       "accessor": {"access": ["public"], "autoPrivate": true},
       "lint": {"enable": false},
-      "coverage": {"enable": false},
-      "undocumentIdentifier": {"enable": false},
+      "coverage": {"enable": false}
     }
   }]
 }
