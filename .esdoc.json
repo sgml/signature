@@ -7,7 +7,7 @@
       "accessor": {"access": ["public"], "autoPrivate": true},
       "lint": {"enable": false},
       "coverage": {"enable": false},
-      "test": {"source": false}
+      "undocumentIdentifier": {"enable": false}
     }
   }]
 }
