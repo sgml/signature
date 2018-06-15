@@ -8,7 +8,6 @@
       "lint": {"enable": false},
       "coverage": {"enable": false},
       "undocumentIdentifier": {"enable": false},
-      "test": {"source": false}
     }
   }]
 }
