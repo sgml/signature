@@ -1,7 +1,6 @@
 {
   "source": "./",
   "destination": "./doc",
-  "outputAST": false,
   "plugins": [{
     "name": "esdoc-standard-plugin",
     "option": {
