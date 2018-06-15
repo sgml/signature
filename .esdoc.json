@@ -1,6 +1,6 @@
 {
   "source": "./",
-  "destination": "./doc",
+  "destination": "./",
   "plugins": [{
     "name": "esdoc-standard-plugin",
     "option": {
